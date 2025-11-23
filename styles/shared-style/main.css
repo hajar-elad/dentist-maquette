@@ -7,10 +7,6 @@ body {
 }
 
 
-.side-menu {
-    border: solid 0.02px rgb(108, 180, 247);
-}
-
 .main {
     padding: 12px;
     min-height: 100vh;

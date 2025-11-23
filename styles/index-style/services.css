@@ -25,13 +25,18 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: larger;
-    font-weight: bold;
+    font-size: large;
     cursor: pointer;
     font-style: italic;
     transition: transform 0.2s ease;
 }
 
+.service:link, .service:visited{
+  color: rgb(20, 25, 68);
+  text-decoration: none;
+}
+
 .service:hover  {
   transform: scale(1.15); /* Zooms the image to 120% of its size */
+  border-width: 2px;
 }

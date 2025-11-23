@@ -18,11 +18,6 @@
    background-image: linear-gradient(45deg, rgb(92, 136, 189), rgb(139, 191, 255), rgb(96, 140, 194));
 }
 
-.reviews-img-container {
-    position: relative;
-
-}
-
 .hide {
     display: none;
 }
@@ -36,7 +31,8 @@
 }
 
 .reviews-img:hover  {
-  transform: scale(1.3); /* Zooms the image to 120% of its size */
+  transform: scale(1.3);
+  border: solid 2px rgb(108, 180, 247);
 }
 
 @media (max-width: 749px) {

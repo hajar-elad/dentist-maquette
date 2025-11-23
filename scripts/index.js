@@ -21,14 +21,14 @@ function showSlides() {
 
 console.log(services)
 
-// Lising Services //
+// Listing Services //
 
 
 function listingServices(){
 
   let html = '';
   services.forEach((service) => {
-    html += `<a class="service" data-id = ${service.id}>
+    html += `<a class="service" href="services.html?serviceId=${service.id}" data-id = ${service.id}>
     ${service.serviceName}
     </a>`
   });
@@ -39,6 +39,9 @@ function listingServices(){
 }
 
 listingServices();
+
+/*
+Generating Querry Parms
 
 function sendQuerrySParms(){
   
@@ -59,46 +62,4 @@ function sendQuerrySParms(){
   })
 
 }
-
-sendQuerrySParms();
-
-  
-// Listing Reviews //
-
-/*function listingReviews(){
-  let html = '';
-
-  reviews.forEach((review) => {
-    html += 
-     `<div class = "reviews-img-container">
-        <div class= "modal-container-${review.id} hide">
-            <img class="reviews-modal-img" src = "${review.image}" data-id = ${review.id}>
-        </div>
-        <img class="reviews-img" src = "${review.image}" data-id = ${review.id}>
-      </div>
-     `})
-     console.log(html);
-
-     document.querySelector('.reviews-grid')
-        .innerHTML = html;
-}
-
-listingReviews();
-
-// display Modal //
-
-function displayModal(){
-  
-  const images = document.querySelectorAll('.reviews-img');
-
-  images.forEach((image) => {
-    image.addEventListener('click', () => {
-
-      const imageId = image.dataset.id
-      document.querySelector(`.modal-container-${imageId}`)
-        .classList.add('modal-container-show');
-    })
-  })
-}
-
-displayModal();*/
+*/
