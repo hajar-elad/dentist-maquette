@@ -1,0 +1,35 @@
+.les-plus-section {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 55px;
+}
+
+.les-plus {
+    display: grid;
+    grid-template-columns: 1Fr 1Fr;
+    gap: 7px;
+}
+
+.les-plus-title{
+    text-decoration: underline;
+}
+
+.les-plus-infos {
+    max-width: 450px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 8px;
+    transition: transform 0.3 ease-in-out;
+    color: rgb(232, 244, 255);
+    border-radius: 5px;
+    background-image: linear-gradient(45deg, hsl(207, 71%, 75%), rgb(97, 152, 219), rgb(89, 126, 172));
+}
+
+.les-plus-infos:hover {
+    transform: scale(1.03);
+}

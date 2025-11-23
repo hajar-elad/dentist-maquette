@@ -1,0 +1,33 @@
+footer{
+    margin-top: 55px;
+    margin-bottom: 10px;
+    font-size: 17px;
+    background-image: linear-gradient(45deg, rgb(101, 142, 192), hsl(207, 71%, 75%), rgb(97, 152, 219));
+    padding: 12px;
+    border: solid 1px rgb(108, 180, 247);
+    border-radius: 10%;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.icon{
+    width: 32px;
+}
+
+.under-section-c {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}  
+
+.copyright{
+    font-size: small;
+    text-align: end;
+    padding-top: 21px;
+}

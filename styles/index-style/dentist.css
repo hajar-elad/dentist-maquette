@@ -1,0 +1,40 @@
+.dentist-infos {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 75px;
+}
+
+
+.dentist-img {
+    opacity: 0.8;
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+    /*border: solid 1px rgb(108, 180, 247);*/
+}
+
+
+.dentist-intro,
+.cabinet-infos {
+    display: flex;
+    flex-direction: column;
+    row-gap: 11px;
+    padding: 10px;
+    max-width: 500px;
+    border: solid 1px rgb(108, 180, 247);
+    background-image: linear-gradient(45deg, hsl(207, 71%, 75%), rgb(97, 152, 219), rgb(89, 126, 172));
+    text-align: center;
+    border-radius: 10px;
+    font-style: italic;
+}
+
+@media (max-width: 749px) {
+
+    .dentist-infos {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+    }
+}

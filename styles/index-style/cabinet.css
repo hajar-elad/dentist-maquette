@@ -1,0 +1,18 @@
+.cabinet-dentaire {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+
+}
+
+.cabinet-infos {
+    display: flex;
+    flex-direction: column;
+    row-gap: 11px;
+    padding: 15px;
+    border-radius: 10px;
+    border: solid 1px rgb(108, 180, 247);
+}

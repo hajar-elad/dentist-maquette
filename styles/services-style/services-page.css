@@ -1,0 +1,24 @@
+.services-container {
+    display: flex;
+    gap: 12px;
+    max-width: 800px;
+    height: 300px;
+    background-color: hsl(206, 75%, 89%);
+    border-radius: 2px;
+}
+
+.image {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.infos {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+}
+
+.title {
+    font-size: x-large;
+}
