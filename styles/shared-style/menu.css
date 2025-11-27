@@ -23,6 +23,7 @@
     color: bisque;
     transition: transform 0.2s ease;
     position: relative;
+    text-wrap: nowrap;
 }
 
 .menu a:link, .menu a:visited{
@@ -57,3 +58,4 @@
     background-image: linear-gradient(45deg, rgb(70, 107, 151), rgb(139, 191, 255), rgb(76, 112, 156));
     font-size: larger;
 }
+
