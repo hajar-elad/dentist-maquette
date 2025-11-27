@@ -1,42 +1,48 @@
 .services {
-    margin-top: 100px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 55px;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 55px;
 }
 
 .service-infos {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 7px;
-    flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  flex-wrap: wrap;
 }
 
 
 .service {
-    width: 150px;
-    height: 150px;
-    border-radius: 75px;
-     background-image: linear-gradient(45deg, hsl(207, 71%, 75%), rgb(97, 152, 219), rgb(89, 126, 172));
-    border: solid 1px rgb(108, 180, 247);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: large;
-    cursor: pointer;
-    font-style: italic;
-    transition: transform 0.2s ease;
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  background-image: linear-gradient(45deg, hsl(207, 71%, 75%), rgb(97, 152, 219), rgb(89, 126, 172));
+  border: solid 1px rgb(108, 180, 247);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: large;
+  cursor: pointer;
+  font-style: italic;
+  transition: transform 0.2s ease;
+  /* Change the degree for different rotation amounts
+     */
+
 }
 
-.service:link, .service:visited{
+.service:link,
+.service:visited {
   color: rgb(20, 25, 68);
   text-decoration: none;
 }
 
-.service:hover  {
-  transform: scale(1.15); /* Zooms the image to 120% of its size */
+.service:hover {
+  background-size: 300%;
+  animation: gradient-shift 2s linear infinite alternate;
+  transform: scale(1.15);
   border-width: 2px;
 }

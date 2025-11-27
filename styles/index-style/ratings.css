@@ -14,7 +14,7 @@
     max-width: 80vw;
     padding: 15px;
     border-radius: 10px;
-    border: solid 1px rgb(108, 180, 247);
+    border: solid 1px rgb(108, 180, 247); 
    background-image: linear-gradient(45deg, rgb(92, 136, 189), rgb(139, 191, 255), rgb(96, 140, 194));
 }
 
