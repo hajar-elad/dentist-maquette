@@ -51,16 +51,18 @@
     display: flex;
     flex-direction: column;
     gap: 7px;
+    font-size: medium;
 }
 
 .dorpdown-menu a:hover{
     background-image: linear-gradient(45deg, rgb(70, 107, 151), rgb(139, 191, 255), rgb(76, 112, 156));
-    font-size: larger;
+    font-size: large;
 }
 
 @media (max-width: 749px) {
 
     .menu-link {
-        width: auto;
+        width: 37%;
     }
+
 }

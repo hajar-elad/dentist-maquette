@@ -16,3 +16,10 @@
     border-radius: 10px;
     border: solid 1px rgb(108, 180, 247);
 }
+
+@media (max-width: 549px) {
+
+    .cabinet-infos {
+        max-width: fit-content;
+    }
+}

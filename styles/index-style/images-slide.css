@@ -1,4 +1,6 @@
-* {box-sizing:border-box}
+* {
+  box-sizing: border-box
+}
 
 /* Slideshow container */
 .slideshow-container {
@@ -7,10 +9,10 @@
 }
 
 
-.img-slides{
+.img-slides {
   display: none;
-    max-width: 400px;
-    height: 400px;
+  max-width: 400px;
+  height: 400px;
 }
 
 /* Fading animation */
@@ -20,6 +22,11 @@
 }
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
 }
