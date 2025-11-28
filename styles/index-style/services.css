@@ -25,6 +25,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  text-wrap: balance;
   font-size: large;
   cursor: pointer;
   font-style: italic;
@@ -45,4 +46,5 @@
   animation: gradient-shift 2s linear infinite alternate;
   transform: scale(1.15);
   border-width: 2px;
+
 }
