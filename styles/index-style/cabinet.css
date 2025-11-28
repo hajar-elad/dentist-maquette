@@ -20,6 +20,7 @@
 @media (max-width: 549px) {
 
     .cabinet-infos {
-        max-width: fit-content;
+        max-width: auto;
     }
+
 }
