@@ -31,7 +31,7 @@
 
 .img-slides {
   display: none;
-  max-width: 400px;
+  max-width: 75%;
   height: 400px;
 }
 
@@ -60,4 +60,5 @@
     .img-slides{
       width: 75vw;
     }
+
 }
