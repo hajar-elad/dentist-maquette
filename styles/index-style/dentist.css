@@ -15,8 +15,7 @@
 }
 
 
-.dentist-intro,
-.cabinet-infos {
+.dentist-intro {
     display: flex;
     flex-direction: column;
     row-gap: 11px;

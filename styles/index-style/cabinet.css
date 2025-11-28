@@ -15,12 +15,45 @@
     padding: 15px;
     border-radius: 10px;
     border: solid 1px rgb(108, 180, 247);
+    background-image: linear-gradient(45deg, hsl(207, 71%, 75%), rgb(97, 152, 219), rgb(89, 126, 172));
+    text-align: center;
+    font-style: italic;
+    max-width: 500px;
+    transition: transform 0.4s ease;
+}
+
+/* Slide images container */
+.slideshow-container {
+  position: relative;
+  margin: auto;
+}
+
+
+.img-slides {
+  display: none;
+  max-width: 400px;
+  height: 400px;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
 }
 
 @media (max-width: 549px) {
 
     .cabinet-infos {
-        max-width: auto;
+        width: 80vw;
     }
-
 }

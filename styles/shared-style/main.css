@@ -3,7 +3,7 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 17px;
     color: rgb(20, 25, 68);
-    background-image: linear-gradient(45deg, hsl(207, 71%, 75%), rgb(97, 152, 219), rgb(88, 147, 219));
+    background-image: linear-gradient(to right, hsl(207, 71%, 75%), rgb(97, 152, 219), rgb(88, 147, 219));
 }
 
 
