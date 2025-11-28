@@ -14,7 +14,7 @@ function getParams(){
         <div class = "title">${service.serviceName}</div>
         <div class = "description">${service.infos}</div>
       </div>
-      `
+      ` 
     }
   })
 

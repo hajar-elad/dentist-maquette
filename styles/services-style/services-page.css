@@ -4,20 +4,20 @@
     justify-self: center;
     display: flex;
     gap: 12px;
-    max-width: 800px;
-    height: 400px;
+    max-width: 75vw;
     background-color: hsl(206, 75%, 89%);
     border-radius: 2px;
 }
 
 .image {
     max-width: 300px;
-    max-height: 400px;
+    max-height: 300px;
     transition: transform 0.4s ease;
+    border: solid 2px #a9d6ff;
 }
 
 .image:hover{
-    transform: scale(1.3);
+    transform: scale(1.3); 
 }
 
 .infos {
@@ -33,4 +33,21 @@
 
 .title {
     font-size: x-large;
+}
+
+@media (max-width: 749px) {
+
+    .services-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        padding: 12px;
+    }
+
+    .infos{
+       align-items: center;
+        justify-content: center; 
+    }
+
 }
